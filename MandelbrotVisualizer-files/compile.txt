@@ -1,0 +1,1 @@
+g++ main.cpp mandelbrotVisualizer.cpp resources.o -o Mandelbrot-Visualizer.exe; .\Mandelbrot-Visualizer.exe
