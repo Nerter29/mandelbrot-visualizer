@@ -219,7 +219,7 @@ void mandelbrotVisualizer::setScreenSize()
     int width, height;
 
     if (GetConsoleScreenBufferInfo(GetStdHandle(STD_OUTPUT_HANDLE), &csbi)) {
-        width = std::round((csbi.srWindow.Right - csbi.srWindow.Left + 1) * 0.48);
+        width = std::round((csbi.srWindow.Right - csbi.srWindow.Left + 1) * 0.48); // < 0.5
         height = std::round((csbi.srWindow.Bottom - csbi.srWindow.Top + 1) * 0.92) - 3;
 
         if(height % 2 == 1){ //height has to bo even
@@ -232,7 +232,7 @@ void mandelbrotVisualizer::setScreenSize()
         int adjustedWidth = height *  (baseWidthDistance / baseHeightDistance); // Ratio between width and height of screen to match Mandelbrot ratio
         int adjustedHeight = width * (baseHeightDistance / baseWidthDistance); 
 
-        if(width - 10 > height){
+        if(adjustedHeight > height){
             screenSize[0] = adjustedWidth;
             screenSize[1] = height;
         }

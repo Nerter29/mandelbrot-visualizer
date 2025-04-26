@@ -1,1 +1,4 @@
+cd C:\Users\teren\Links\OneDrive\Dokumente\Projets-executables\cpp\MandelbrotVisualizer-Project\MandelbrotVisualizer-files
+
+
 g++ main.cpp mandelbrotVisualizer.cpp resources.o -o Mandelbrot-Visualizer.exe; .\Mandelbrot-Visualizer.exe
