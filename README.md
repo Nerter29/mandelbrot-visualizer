@@ -1,4 +1,4 @@
-DESCRIPTION :
+DESCRIPTION :  
 Ce projet permet de voir l'ensemble de Mandelbrot sur la console, c'est assez joli.
 On peut :
 -zoomer
@@ -6,27 +6,29 @@ On peut :
 
 n'hésitez pas à tapez "help" dans la console quand vous lancez le projet pour voir les commandes disponibles.
 
-INSTALLATION:
+INSTALLATION:  
 
 --Windows--
 
 vous pouvez juste telecharger le .zip, l'extraire et double cliquer sur le .exe, si vous m'accorder assez de confiance.
 ou sinon
 
-git clone https://gitlab.com/Nerter/mandelbrot-visualizer.git
-cd mandelbrot-visualizer
-cd MandelbrotVisualizer-windows
-.\mandelbrotVisualizer.exe
+git clone https://gitlab.com/Nerter/mandelbrot-visualizer.git  
+cd mandelbrot-visualizer  
+cd MandelbrotVisualizer-windows  
+.\mandelbrotVisualizer.exe  
 
 --Linux--
 
-git clone https://gitlab.com/Nerter/mandelbrot-visualizer.git
-cd mandelbrot-visualizer
-cd MandelbrotVisualizer-Linux
-chmod +x Mandelbrot-Visualizer
+git clone https://gitlab.com/Nerter/mandelbrot-visualizer.git  
+cd mandelbrot-visualizer  
+cd MandelbrotVisualizer-Linux  
+chmod +x Mandelbrot-Visualizer  
 ./Mandelbrot-Visualizer
 
-
+AVENIR:  
+Je ne compte pas faire d'autres mises à jour, mais vous pouvez très bien ajouter des features,
+j'ai mis un fichier compile.txt qui vous montre comment compiler les fichiers, il faut juste avoir installé gcc
 
 
 
