@@ -100,17 +100,19 @@ void mandelbrotVisualizer::displayScreen(){
                 }
             }
             else{
-                
-                if(std::round(((j + 1) * 100) / screenSize[0]) >= percentagesList[m]){
-                    if ( percentagesList[m] == 0){
-                        std::cout << "0";
+                if(m < percentagesList.size()){
+                    if(std::round(((j + 1) * 100) / screenSize[0]) >= percentagesList[m]){
+                        if ( percentagesList[m] == 0){
+                            std::cout << "0";
+                        }
+                        std::cout << percentagesList[m];
+                        m++;
+                        }
+                    else{
+                        std::cout << "  ";
                     }
-                    std::cout << percentagesList[m];
-                    m++;
                 }
-                else{
-                    std::cout << "  ";
-                }
+              
             }
         }
         std::cout << std::endl;
