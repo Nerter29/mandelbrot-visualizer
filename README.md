@@ -1,4 +1,5 @@
 DESCRIPTION :  
+
 Ce projet permet de voir l'ensemble de Mandelbrot sur la console, c'est assez joli.  
 On peut :  
 -zoomer  
@@ -22,11 +23,12 @@ cd MandelbrotVisualizer-windows
 
 git clone https://gitlab.com/Nerter/mandelbrot-visualizer.git  
 cd mandelbrot-visualizer  
-cd MandelbrotVisualizer-Linux  
+cd MandelbrotVisualizer-linux  
 chmod +x Mandelbrot-Visualizer  
 ./Mandelbrot-Visualizer
 
 AVENIR:  
+
 Je ne compte pas faire d'autres mises à jour, mais vous pouvez très bien ajouter des features,
 j'ai mis un fichier compile.txt qui vous montre comment compiler les fichiers, il faut juste avoir installé gcc
 
