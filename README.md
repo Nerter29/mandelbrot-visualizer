@@ -1,8 +1,8 @@
 DESCRIPTION :  
-Ce projet permet de voir l'ensemble de Mandelbrot sur la console, c'est assez joli.
-On peut :
--zoomer
--dezoomer
+Ce projet permet de voir l'ensemble de Mandelbrot sur la console, c'est assez joli.  
+On peut :  
+-zoomer  
+-dezoomer  
 
 n'hésitez pas à tapez "help" dans la console quand vous lancez le projet pour voir les commandes disponibles.
 
