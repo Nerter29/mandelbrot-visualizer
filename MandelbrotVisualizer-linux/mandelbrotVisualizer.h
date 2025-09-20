@@ -43,7 +43,7 @@ public:
     std::vector<long double> middlePointCoordinate = baseMiddlePointCoordinate;
 
     bool playing = true;
-    bool hasToCreateMandelBrot;
+    bool hasToCreateMandelBrot = false;
     bool firstIteration = true;
     bool hasToGoBack = false;
     bool onPercentageMode = false;
