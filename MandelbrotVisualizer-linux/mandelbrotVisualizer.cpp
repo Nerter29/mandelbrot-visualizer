@@ -56,8 +56,10 @@ void mandelbrotVisualizer::displayScreen(){
             std::string bByte;
 
             if(minIterationNotOnSet < 30){
-                gByte = std::to_string(int(std::min((currentIteration / (iterationAverage * 1)) * 255, 255.0L)));
-                bByte = std::to_string(int(std::min((currentIteration / (iterationAverage * 2)) * 255, 255.0L)));
+                double safeIterationAverage = (iterationAverage > 1e-9) ? iterationAverage : 1e-9;
+
+                gByte = std::to_string(int(std::min((currentIteration / (safeIterationAverage * 1)) * 255, 255.0L)));
+                bByte = std::to_string(int(std::min((currentIteration / (safeIterationAverage * 2)) * 255, 255.0L)));
 
 
             }
